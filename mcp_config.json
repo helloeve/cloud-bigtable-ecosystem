@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bigtable": {
+      "serverUrl": "https://bigtableadmin.googleapis.com/mcp",
+      "authProviderType": "google_credentials"
+    }
+  }
+}

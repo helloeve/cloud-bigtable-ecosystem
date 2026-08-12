@@ -22,6 +22,16 @@ Gemini CLI extensions are installed directly from their remote GitHub repositori
 gemini extensions install https://github.com/GoogleCloudPlatform/cloud-bigtable-ecosystem
 ```
 
+#### Antigravity CLI Installation
+
+The [Antigravity CLI](https://antigravity.google/docs/cli) (`agy`) installs plugins directly from a remote GitHub repository.
+
+```bash
+agy plugin install https://github.com/GoogleCloudPlatform/cloud-bigtable-ecosystem
+```
+
+> 💡 **Migrating from Gemini CLI?** If you previously installed this extension with `gemini extensions install`, run `agy plugin import gemini` (or accept the Migration Options prompt on first launch) to convert it to an Antigravity plugin instead of reinstalling. See [Migrating from Gemini CLI](https://antigravity.google/docs/cli/gcli-migration) for details.
+
 #### Claude Code Installation
 
 Claude Code utilizes a marketplace system for plugins.
